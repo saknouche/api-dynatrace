@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+        {"src": "api/receive-alerts.js", "use": "@vercel/node"}
+    ],
+    "routes": [
+        {"src": "/receive-alerts", "dest": "/api/receive-alerts.js"}
+    ]
+}
